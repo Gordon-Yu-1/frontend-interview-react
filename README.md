@@ -1,3 +1,13 @@
+## Challenges
+
+Junior-level interview:
+
+Create a Todo app using Node. Allow user to add todos.
+
+Senior-level interview:
+
+In addition, when a Todo is clicked, a React modal should show the todo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
