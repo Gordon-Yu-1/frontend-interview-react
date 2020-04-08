@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom');
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { todos: [] } // uses state to hold the todos (not a third party library)
+        this.state = { todos: [] }; // uses state to hold the todos (not a third party library)
         this.saveTodo = this.saveTodo.bind(this); // knows about 'this' issue with classes. Best practice.
         this.inputRef = React.createRef(); // knows about refs
     }
@@ -42,7 +42,7 @@ class App extends React.Component {
                 </ul>
                 <input placeholder='add todo' ref={this.inputRef} />
             </form>
-        )
+        );
     }
 }
 

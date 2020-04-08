@@ -7,6 +7,7 @@ Create a Todo app using Node. Allow user to add todos.
 Senior-level interview:
 
 In addition, when a Todo is clicked, a React modal should show the todo.
+Avoid the `React mindset` and know when to step out of the React box
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
